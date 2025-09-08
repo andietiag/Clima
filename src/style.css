@@ -3,8 +3,7 @@ body {
     min-height: 100vh;
 }
 header {
-    padding: 15px;
-    text-align: center;
+    padding: 25px;
 }
 main {
     border: 3px solid black;
@@ -12,7 +11,7 @@ main {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     width: fit-content;
 }
 h1 {
@@ -24,16 +23,25 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.city-input {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
 .current {
     display: flex;
-    justify-content: space-around;
-    padding: 15px;
+    justify-content: space-between;
+    padding: 3px;
+}
+.current-left{
+    padding: 25px;
 }
 .current-temperature {
     font-family: "Nunito Sans", sans-serif;
     font-size: 50px;
-    font-weight: 900;
-    padding: 15px;
+    font-weight:700;
+    padding: 25px;
     text-align: center;
 }
 .degrees {
@@ -48,12 +56,11 @@ footer {
 }
 .forecasted-day {
     background-color: #F4C01C;
+    border: 3px solid black;
     color: white;
     font-weight: 900;
-    border: 3px solid black;
     margin: 3px 7px;
     padding: 15px;
-    width: 65px;
 }
 .forecasted-emoji {
     background: #3064bf;
@@ -62,11 +69,21 @@ footer {
     font-size: 35px;
     margin: 3px 7px;
     padding: 15px;
-    width: 65px;
 }
 .forecasted-temperature {
     border: 3px solid black;
     margin: 3px 7px;
     padding: 15px;
-    width: 65px;
+}
+.search {
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+}
+.submit {
+    background-color: #3064bf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
 }
