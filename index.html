@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <title>Clima</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -12,15 +15,47 @@
         <input type="submit" value="Search">
     </header>
     <main class="main">
-    <div class="current"><h1 class="current-city">Hermosillo
-    </h1>
-    <div class="current-details">Tuesday 14:49, scattered clouds
-        <br />
-        Humidity: 34%, Wind: 3.13 km/h
+    <div class="current">
+        <div>
+            <div class="current-city">
+                <h1>Hermosillo
+                </h1>
+            </div>
+            <div class="current-details">
+                Tuesday 14:49, scattered clouds<br />
+                Humidity: 34%, Wind: 3.13 km/h
+            </div>
+        </div>
+        <div class="current-temperature">
+        🌥23<span class="degrees">°C</span>
         </div>
     </div>
-    <div class="current-temperature">
-        🌥23°C
+    <div class="forecast">
+        <div id="forecasted-1">
+            <div class="forecasted-day">THU</div>
+            <div class="forecasted-emoji">🌥</div>
+            <div class="forecasted-temperature">23<span class="degrees">°C</span></div>
+        </div>
+        <div id="forecasted-2">
+            <div class="forecasted-day">FRI</div>
+            <div class="forecasted-emoji">🌥</div>
+            <div class="forecasted-temperature">23<span class="degrees">°C</span></div>
+        </div>
+        <div id="forecasted-3">
+            <div class="forecasted-day">SAT</div>
+            <div class="forecasted-emoji">🌥</div>
+            <div class="forecasted-temperature">23<span class="degrees">°C</span></div>
+        </div>
+        <div id="forecasted-4">
+            <div class="forecasted-day">SUN</div>
+            <div class="forecasted-emoji">🌥</div>
+            <div class="forecasted-temperature">23<span class="degrees">°C</span></div>
+        </div>
+        <div id="forecasted-5">
+            <div class="forecasted-day">MON</div>
+            <div class="forecasted-emoji">🌥</div>
+            <div class="forecasted-temperature">23<span class="degrees">°C</span></div>
+        </div>
     </div>
     </main>
     <footer class="footer">Coded by Andrea Tinoco
